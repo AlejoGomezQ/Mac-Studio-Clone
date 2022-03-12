@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h1>Bootstrap</h1>
+    <initial-description/>
   </div>
 </template>
 
 <script>
+import InitialDescription from '@/components/macstudio/InitialDescription'
 
 
 export default {
   name: 'MacStudio',
   components: {
-
+    InitialDescription
   }
 }
 </script>
