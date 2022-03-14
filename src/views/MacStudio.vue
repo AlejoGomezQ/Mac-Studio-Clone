@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import InitialDescription from '@/components/macstudio/InitialDescription'
 import SubMenuMacStudio from '@/components//menus/SubMenuMacStudio'
-import Superpower from '@/components/macstudio/Superpower'
-import GeneralInfo from '@/components/macstudio/GeneralInfo'
+import InitialDescription from '@/components/mac-studio/InitialDescription'
+import Superpower from '@/components/mac-studio/Superpower'
+import GeneralInfo from '@/components/mac-studio/GeneralInfo'
 
 
 export default {
