@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center">
+  <section class="container-fluid text-center">
     <div class="title-container">
       <h1 class="mt-5">Mac Studio</h1>
       <h2>Empower station.</h2>
@@ -8,15 +8,49 @@
       <img
         src="@/assets/images/static_front.jpg"
         alt="static-front"
-        class="w-75 mt-4"
+        class="w-50 mt-4"
       />
     </div>
     <div class="general-info-container">
       <ul class="general-info">
         <li><span>From $1999</span></li>
         <li><span>|</span></li>
-        <li><span>Watch the event</span></li>
-        <li><span>Watch the film</span></li>
+        <li>
+          <span
+            >Watch the event
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              /></svg
+          ></span>
+        </li>
+        <li>
+          <span
+            ><router-link to="#">Watch the film</router-link>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-skip-end-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M6.271 5.055a.5.5 0 0 1 .52.038L9.5 7.028V5.5a.5.5 0 0 1 1 0v5a.5.5 0 0 1-1 0V8.972l-2.71 1.935A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"
+              /></svg
+          ></span>
+        </li>
       </ul>
     </div>
     <div class="description-container">
@@ -31,10 +65,10 @@
       <img
         src="@/assets/images/static_back.jpg"
         alt="static-back"
-        class="w-75"
+        class="w-50"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -47,11 +81,22 @@ export default {
 * {
   color: var(--black);
 }
+.container-fluid {
+  margin-bottom: 200px;
+}
 h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 h2 {
-  font-size: 80px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.general-info {
+  display: inline-flex;
+}
+
+.general-info > li {
+  margin-right: 15px;
   font-weight: bold;
 }
 li {
@@ -59,7 +104,7 @@ li {
   margin: 40px auto;
 }
 span {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 .description-container {
   margin: 100px auto;
