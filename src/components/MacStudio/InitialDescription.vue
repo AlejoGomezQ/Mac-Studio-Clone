@@ -17,7 +17,7 @@
         <li><span>|</span></li>
         <li>
           <span
-            >Watch the event
+            ><a href="#">Watch the event</a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -34,7 +34,7 @@
         </li>
         <li>
           <span
-            ><router-link to="#">Watch the film</router-link>
+            ><a href="#">Watch the film</a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -48,8 +48,9 @@
               />
               <path
                 d="M6.271 5.055a.5.5 0 0 1 .52.038L9.5 7.028V5.5a.5.5 0 0 1 1 0v5a.5.5 0 0 1-1 0V8.972l-2.71 1.935A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"
-              /></svg
-          ></span>
+              />
+            </svg>
+          </span>
         </li>
       </ul>
     </div>
@@ -108,5 +109,15 @@ span {
 }
 .description-container {
   margin: 100px auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--black);
+  border-bottom: 2px solid var(--black);
+}
+svg {
+  margin-left: 10px;
 }
 </style>

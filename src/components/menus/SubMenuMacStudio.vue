@@ -8,7 +8,7 @@
           <span>Mac Studio</span></a
         >
         </div>
-        <div class="col-6 rigth-info align-self-end">
+        <div class="col-6 rigth-info align-self-end text-end">
           <span>Overview</span>
           <span><a href="#">Why Mac</a></span>
           <span><a href="#">Tech Specs</a></span>

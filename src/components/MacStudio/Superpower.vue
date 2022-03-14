@@ -4,7 +4,7 @@
       <div class="col-12 mb-5">
         <h2>Choose your superpower.</h2>
       </div>
-      <div class="row specifications-container d-flex mt-5">
+      <div class="row specifications-container mt-5">
         <div class="col-6 m1-max-container">
           <img src="@/assets/images/m1_max.jpg" alt="m1-max" />
           <ul>
